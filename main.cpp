@@ -11,11 +11,9 @@ int count_lines()
   string a;
   fin.open ("Pharmacy.txt",ios::in);
   while (getline(fin,a))
-    {
-      count++;
-    }
-    return count;
+    count++;
   
+  return count;
 }
 int find_medicine(string name)
 {
@@ -38,7 +36,6 @@ int find_medicine(string name)
 int invalid_medicine(string name)
 {
   int line_no = find_medicine(name);
-  
   if (line_no == -1)
   {
     cout << name << " not found" << endl;
@@ -331,6 +328,82 @@ void search (string name, bool item, bool price, bool quantity)
   else
     display_quantity(data);
 }
+string get_price (string name)
+{
+
+  int line_no = find_medicine(name);
+  fstream fin;
+  string a;
+  int i = 0;
+
+  fin.open ("Pharmacy.txt",ios::in);
+   while (i<line_no)
+     {
+       getline(fin,a);
+       i++;
+     }
+  fin.close();
+
+
+  string data[7];
+  int j = 0;
+  int starting_point = 0;
+
+  while (j<7)
+    {
+      int index = a.find(",");
+      if (index == -1)
+      {
+        index = a.find("\n");
+      }
+      int length = index - starting_point;
+      data[j] = a.substr(starting_point,length);
+      a = a.substr(index+2);
+      j++;
+    }
+  return data[5];
+}
+void display_bill(string items_bought[][4], int size, double total)
+{
+  for (int i=0;i<55;i++)
+    cout << "-";
+  cout << endl;
+  cout << setw(15)  << left <<"Name" << setw(12) << "Quantity" << setw(15) << "Unit Price" << setw(15)<< "Total price"<< endl;
+  for (int i=0;i<55;i++)
+    cout << "-";
+  cout << endl;
+  for (int i=0;i<55;i++)
+    cout << "-";
+  cout << endl;
+  for (int i=0;i<size;i++)
+    {
+      cout << setw(15)<<left << items_bought[i][0] << setw(12) << left <<items_bought[i][1] << setw(15) << left <<items_bought[i][2]<< setw(15)<< left << items_bought[i][3] << endl;
+    }
+  for (int i=0;i<55;i++)
+    cout << "-";
+  cout << endl;
+  cout << setw(45) << left << "Total: " << setw(15) << total << endl<< endl;
+ 
+}
+void buy_items(string name[], string quantity[], int size)
+{
+  for (int i=0;i<size; i++)
+  if (invalid_medicine(name[i]) == -1)
+    return;
+
+  double total = 0;
+  string items_bought [size][4];
+  for (int i=0;i<size;i++)
+    {
+      items_bought[i][0] = name[i];
+      items_bought[i][1] = quantity[i];
+      items_bought[i][2] = get_price(name[i]);
+      double totes = stod(items_bought[i][2]) * stod(quantity[i]);
+      items_bought[i][3] = to_string(totes);
+      total = totes + total;
+    }
+  display_bill(items_bought, size, total);
+}
 int menu()
 {
   int option;
@@ -348,7 +421,7 @@ int menu()
   return option;
 }
 void del ()
-  {
+{
    string n;
    cout << "Enter name of item to be deleted:\n";
    getline (cin, n);
@@ -432,6 +505,25 @@ void update_dates()
   getline(cin, mfg);
   update(name,  na , na, mfg, exp);
 }
+void bills()
+{
+  string n[20];
+  string q[20];
+  int i = 0;
+  int a = 1;
+  while (i < 20 && a == 1)
+    {
+      cout << "Enter the name of item bought: ";
+      getline (cin, n[i]);
+      cout << "Enter the quantity of item bought: ";
+      getline (cin, q[i]);
+      i++;
+      cout << "Enter 1 to keep adding items, 0 to exit adding items."<< endl;
+      cin >> a;
+      cin.get();
+    }
+  buy_items(n, q,i);
+}
 int main() {
 int option = 5;
    while (option!= 0)
@@ -444,7 +536,6 @@ int option = 5;
       }         
       else if (option == 2)
       {
-        //cout << "hi"<< endl;
         search_p();
       }
       else if (option == 3)
@@ -471,12 +562,15 @@ int option = 5;
       {
         del();
       }
+      else if (option == 9)
+      {
+        bills();
+      }
       else
       {
-        cout << "Inalid option. Try again." << endl;
+        cout << "Invalid option. Try again." << endl;
       }
     }
-  
 
 return 0;
 }
