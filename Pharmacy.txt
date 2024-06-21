@@ -1,0 +1,50 @@
+Panadol, Paracetamol, 500 mg, 11 22, 11 24, 264.8, 8 tablets per pack
+Risek, Omeprazole and Sodium bicarbonate, 20 mg, 11 22, 11 24, 170.69, 10 satchet
+Fexet, Fexofenadine, 60 mg, 11 22, 11 24, 150.12, 20 tablets per pack 10 tablets per strip
+Z-Tek, Cetirizine, 10 mg, 11 22, 11 24, 54.9, 10 per pack
+Brufen, Ibuprofen, 400 mg, 05 22, 09 09, 94.0, 20 tablets per pack
+Lexotanil, Bromazepam, 3 mg, 07 19, 22 27, 124.00, 30 tablets per pack
+Flagyl, Metronidazole, 375 mg, 04 22, 08 25, 20.83, 200 tablets per pack
+Actified-P, Paracetamol, 60 mg, 09 22, 09 21, 160.0, 1 syrup
+Rigix, Cetirizine dihydrochloride, 10 mg, 06 21, 09 24, 62.9, 10 tablets per pack
+Entamizole, Diloxanide Furoatel Metronidazole, 500 mg, 03 22, 28 24, 94.83, 15 tablets per pack
+Ciprofloxain, Quinolone, 500 mg, 04 22, 07 28, 110.2, 10 tablets per pack
+Neoflox, Iodine, 1 mg, 03 22, 04 24, 340, 8 tablets per pack
+Catoper, Paracetamol, 13 mg, 02 22, 04 24, 1000, 6 tablets per pack
+Senizole, Iodine, 1 mg, 03 22, 08 23, 340.0, 8 tablets per pack
+Mizole, Dispi, 2 mg, 09 22, 06 23, 180.0, 7 tablets per pack
+Emidone, Dispi, 8 mg, 08 22, 06 24, 200.0, 10 tablets per pack
+Provin, Iodine, 1 mg, 09 22, 05 23, 340.0, 8 tablets per pack
+Bionip, Dispi, 3 mg, 09 22, 05 25, 200, 7 tablets per pack 
+Ulcofin, Paracetamol, 12 mg, 02 22, 02 23, 990.0, 8 tablets per pack
+Alfergo, Dispi, 20 mg, 09 22, 05 24, 200.0, 8 tablets per pack
+Prothaiden, Dosulepin Hydrochloride, 75 mg, 07 22, 22 24, 149.0, 28 tablets per pack
+Lefodil, Iodine, 3 mg, 09 22, 05 25, 340.0, 8 tablets per pack
+Gabatic, Paracetamol, 13, 02 22, 04 23, 800.0, 6 tablets per pack
+Neuly, Dispi, 10 mg, 03 22, 06 23, 200.0, 7 tablets per pack
+Onlezole, Paracetamol, 25 mg, 02 22, 04 24, 1000, 6 tablets per pack
+Trutil, Iodine, 1 mg, 09 22, 0 8 24, 340.0, 8 tablets per pack
+Alide, Dispi, 8 mg, 09 22, 06 23, 200.0, 7 tablets per pack
+Anibone, Iodine, 20 mg, 03 22, 08 23, 440.0, 15 tablets per pack
+Togram, Paracetamol, 13 mg, 02 22, 04 25, 500.0, 10 tablets per pack
+Mucorid, 2 mg, Iodine, 09 22, 08 25, 350.0, 8 tablets per pack
+Myosoft, Paracetamol, 15 mg, 02 22, 04 23, 1500, 10 tablets per pack
+Trinin, Dispi, 60 mg, 09 22, 06 23, 470.23, 7 tablets per pack
+Anidep, Iodine, 10 mg, 03 22, 05 24, 540, 8 tablets per pack
+Eleral, Paracetamol, 20 mg, 02 22, 4 25, 1000, 6 tablets per pack
+Dugram, Dispi, 4 mg, 9 22, 5 23, 200.0, 7 tablets per pack
+Enadin, Iodine, 1 mg, 9 22, 8 24, 340.23, 8 tablets per pack
+Enque, Paracetamol, 10 mg, 2 22, 4 23, 980.4, 8 tablets per pack
+Eslor, Iodine, 6 mg, 9 22, 8 3, 364,0, 8 tablets per pack
+Ignis, Paracetamol, 15 mg, 4 22, 5 25, 1500, 10 tablets per pack
+Cyclofix, Dispi, 3 mg, 8 22, 7 24, 200.0, 7 tablets per pack
+Leepra, Paracetamol, 25 mg, 2 22, 4 24, 1000, 5 tablets per pack
+Neostate, Dispi, 50 mg, 9 22, 5 23, 320.0, 7 tablets
+Lanz, Iodine, 8 mg, 9 22, 8 24, 79.43, 12 tablets per pack
+Disprin, Dispi, 2 mg, 9 22, 5 24, 278.9, 20 tablets per pack
+Bivodil, Paracetamol, 13 mg, 2 22, 4 26, 1200, 6 tablets per pack
+Iropal, Dispi, 60 mg, 3 22, 6 23, 170.0, 10 tablets per pack
+Tonoflex, Tramadol HCL and Paracetamol, 37.5 mg, 9 22, 8 26, 88.71, 10 tablets per pack
+Mucaine, Oxethazaine, 120 ml, 6 22, 9 26, 70.68, 1 syrup
+Alp, Alprazolam, 0.5 mg, 2 22, 4 24, 23.0, 8 tablets per pack
+Librax, Chlordiazepoxide and Clidinium bromide, 7.5 mg, 7 22, 8 28, 36.96, 20
